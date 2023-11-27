@@ -1,0 +1,510 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    color: #01010d;
+}
+
+/* nav bar */
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f4f4f6;
+  }
+  
+  nav{
+    /* overflow: hidden;
+  position: fixed; */
+  /* -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px); */
+  }
+
+  #burger{
+    display: none;
+  }
+
+  .navbar {
+    color: #01010d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+  
+  .navbar-left img {
+    max-height: 40px;
+  }
+  
+  .navbar-center a {
+    margin: 0 15px;
+    text-decoration: none; 
+    color: #01010d;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: #0047FF;
+  }
+  
+.home{
+    height: 100vh;
+    background-image: url("images/meh\ and\ vector.png");
+    width: 100vw;
+    background-size:cover;
+    font-weight: bolder;
+    background-position: center;
+}
+
+.social{
+    margin-right: 10vw;
+}
+
+.intro{
+    margin: 40px;
+    margin-left: 10vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+#adityamadwal{
+    font-size: 40px;
+    color: #0047FF;
+    margin-left: 7px;
+}
+
+.intro-text{
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #0047FF;
+    border: 0px;
+    color: #f4f4f6;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    padding: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: bold;
+
+}
+
+.social img{
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* about me */
+
+.heading{
+    margin-left: 100px;
+    font-size: 30px;
+    margin-bottom: 0px;
+} 
+
+#hr-about{
+    margin-left: -10px;
+    width: 250px;
+    margin-top: 0px;
+    border: 2px solid #0047FF;
+    border-radius: 100px;
+}
+
+.about-img img{
+    width: 40vw;
+    /* margin-right: ; */
+}
+
+.about-text{
+    width: 40vw;
+    /* margin-left: 100px; */
+}
+
+.about-text h4{
+    font-weight: normal;
+}
+
+.about-me{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#cv{
+    /* border: 2px solid #01010d; */
+    background-color: #d2d2d2;
+    color: #01010d;
+}
+
+#hr-skill{
+    margin-left: -10px;
+    width: 220px;
+    margin-top: 0px;
+    border: 2px solid #0047FF;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+.skill-card{
+    width: 200px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+.skill-card img{
+    width: 100px;
+}
+
+.skill-child{
+    text-align: center;
+}
+.skill-child h4{
+    font-size: 15px;
+    font-weight: normal;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.skill-card h3{
+    text-decoration: underline #0047FF;
+
+}
+
+/* certificate */
+
+.certi-card{
+    width: 200px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+.certi-card img{
+    width: 100px;
+}
+
+.certi-child{
+    text-align: center;
+}
+.certi-child h4{
+    font-size: 15px;
+    font-weight: normal;
+}
+.certi-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.certi-card h3{
+    text-decoration: underline #0047FF;
+
+}
+.certi-card a{
+    text-decoration: none;
+    color: #0047FF;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#hr-certi{
+    margin-left: -10px;
+    width: 300px;
+    margin-top: 0px;
+    border: 2px solid #0047FF;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+/* case study */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  .card {
+    display: flex;
+    width: 40vw;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 30px;
+    /* background-color: #c2c2c2; */
+    font-family: 'Manrope';
+    height: 40vh;
+  }
+  #viewmore{
+    color: #0047FF;
+    font-family: 'Manrope';
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+  .card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .card-text h2 {
+    margin-top: 0;
+  }
+  
+  .card-text p {
+    color: #666;
+  }
+  
+  .card-text a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .card-text a:hover {
+    text-decoration: underline;
+  }
+  
+
+/* footer */
+
+.footer{
+    background-color: #0F0F0F;
+    /* height: 30vh; */
+    color: #f4f4f6;
+    margin: 0px;
+    padding: 20px;
+}
+
+.label-input{
+    /* border: 1px solid #f4f4f6; */
+    /* width: 00%; */
+}
+
+.name-input{
+    width: 45%;
+}
+
+.name-input h4{
+    font-weight: normal;
+    margin: 0px;
+}
+
+.label-input h4{
+    margin: 0px;
+    font-weight: normal;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+#form{
+    width: 50vw;
+    /* padding: 10px; */
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name input{
+    width: 100%;
+}
+
+#form h4 {
+    color: #f4f4f6;
+}
+
+#form h3 {
+    color: #f4f4f6;
+}
+
+input{
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #01010d;
+}
+
+textarea{
+    width: 100%;
+    border: 0px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #01010d;
+    resize: none;
+}
+#user-email{
+    width: 100%;
+}
+
+.submit-btn{
+    text-align: center;
+}
+.submit-btn button{
+    /* width: 40%; */
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.social-links img{
+    width: 25px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#copyright{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top:40px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* -------------------TABVIEW-------------------- */
+
+@media screen and (max-width: 992px) {
+    body {
+      /* background-color: blue; */
+    }
+
+  }
+
+  /* ------------------phone view--------------------- */
+
+  @media screen and (max-width: 600px) {
+    body {
+      /* background-color: blue; */
+    }
+
+    .navbar{
+        /* display: inline-block; */
+        margin-left: 1vw;
+        margin-right: 1vw;
+        /* text-align: center; */
+    }
+    .home{
+        background-position: center;
+        background-image: none;
+    }
+
+    .navbar-right a{
+        margin-top: 10vh;
+    }
+    .navbar-center{
+        display: none;
+    }
+    .navbar-right a{
+        display: none;
+    }
+
+    #burger{
+        display: flex;
+        width: 10vw;
+    }
+  
+  .intro{
+    height: 75vh;
+  }
+
+  #adityamadwal{
+    font-size: 25px;
+  }
+
+/* about me */
+
+    .about-me{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .about-text{
+        width: 100vw;
+    }
+    .about-img{
+        width: 100vw;
+    }
+    .about-img{
+        width: 100vw;
+    }
+    /* footer */
+    .social-links{
+        display: flex;
+        justify-content: space-around;
+    }
+    #form{
+        width: 70vw;
+    }
+    .name{
+        display: block;
+    }
+    .name-input{
+        width: 100%;
+    }
+/* case study */
+
+    .card-container{
+    margin: 0px;
+    /* margin-top: 7vw; */
+    margin-bottom: 10vw;
+    }
+    .card{
+    width: 80vw;
+}
+    #viewmore{
+    text-align: center;
+}
+  }
