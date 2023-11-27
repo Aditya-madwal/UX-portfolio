@@ -22,7 +22,7 @@ body {
     display: none;
   }
 
-  .navbar {
+  #navbar {
     color: #01010d;
     display: flex;
     justify-content: space-between;
@@ -413,6 +413,39 @@ textarea{
 textarea:focus, input:focus{
     outline: none;
 }
+/* --------------------------------------------------------- */
+#burgermenu{
+    background-color: #0047FF;
+    color: #f4f4f6;
+    border: 0px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+#burgermenu{
+    overflow:hidden;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#top{
+    background-color: #0047FF;
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+    margin-top: 0px;
+    padding-top: 5vw;
+}
+#menu{
+    text-align: center;
+    font-weight: bolder;
+    color: #d2d2d2;
+    padding-bottom: 5vw;
+}
+
+#burgermenu{
+    display: none;
+}
 
 /* -------------------TABVIEW-------------------- */
 
@@ -430,7 +463,7 @@ textarea:focus, input:focus{
       /* background-color: blue; */
     }
 
-    .navbar{
+    #navbar{
         /* display: inline-block; */
         margin-left: 1vw;
         margin-right: 1vw;
@@ -507,4 +540,37 @@ textarea:focus, input:focus{
     #viewmore{
     text-align: center;
 }
+
+    #burgermenu{
+        background-color: #0047FF;
+        color: #f4f4f6;
+        border: 0px;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    #top{
+        background-color: #0047FF;
+        display: flex;
+        justify-content: space-between;
+        margin: 5vw;
+        margin-top: 0px;
+        padding-top: 5vw;
+    }
+    #menu{
+        text-align: center;
+        font-weight: bolder;
+        color: #d2d2d2;
+        padding-bottom: 5vw;
+    }
+
+    #burgermenu{
+        display: none;
+    }
+    #burgermenu{
+        overflow:hidden;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
   }
